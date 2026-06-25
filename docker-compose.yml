@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  jakarta-munch:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jakarta-munch
+    ports:
+      - "3002:80"
+    networks:
+      - jakarta-munch-net
+    restart: unless-stopped
+
+networks:
+  jakarta-munch-net:
+    driver: bridge

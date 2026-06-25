@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-space: "Space Grotesk", sans-serif;
+  --color-bg: #0F0F0F;
+  --color-surface: #1A1A1A;
+  --color-surface-alt: #222222;
+  --color-amber: #D4A843;
+  --color-amber-light: #E0B858;
+  --color-sage: #8B9E7C;
+  --color-cream: #F8F4ED;
+  --color-muted: #B0ADA6;
+  --color-border: #2A2A2A;
+  --color-border-light: #3A3A3A;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-space);
+    background-color: var(--color-bg);
+    color: var(--color-cream);
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--color-amber);
+    color: var(--color-bg);
+  }
+}
+
+@layer components {
+  .fade-up {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .grain-overlay {
+    position: relative;
+  }
+
+  .grain-overlay::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+  }
+}
