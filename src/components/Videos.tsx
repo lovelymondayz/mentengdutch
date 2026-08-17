@@ -46,9 +46,9 @@ export default function Videos() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 flex items-center justify-center bg-bg/30 group-hover:bg-bg/10 transition-colors">
+                <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
                   <div className="w-14 h-14 bg-amber rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                    <svg className="w-5 h-5 text-bg ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M8 5v14l11-7z" />
                     </svg>
                   </div>

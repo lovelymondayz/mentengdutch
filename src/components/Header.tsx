@@ -13,7 +13,7 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   return (
-    <header className="w-full bg-bg border-b border-border">
+    <header className="w-full bg-bg border-b border-border sticky top-0 z-50">
       <nav className="max-w-[1200px] mx-auto px-6 md:px-8 flex items-center justify-between h-[80px]">
         <a href="/" className="flex-shrink-0">
           <img
@@ -85,7 +85,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-surface border-t border-border px-6 py-6">
+        <div className="md:hidden bg-white border-t border-border px-6 py-6 shadow-lg">
           <ul className="flex flex-col gap-4 text-sm font-medium tracking-wide text-cream/80">
             {navLinks.map((link) => (
               <li key={link.href}>

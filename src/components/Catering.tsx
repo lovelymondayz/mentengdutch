@@ -14,13 +14,13 @@ export default function Catering() {
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href="mailto:info@tokomenteng.nl?subject=Catering%20Aanvraag&body=Hallo%20Toko%20Menteng%20team%2C%0A%0AIk%20zou%20graag%20een%20catering%20offerte%20aanvragen%20voor%20mijn%20evenement.%0A%0ANaam%3A%20%0AEvenementdatum%3A%20%0AAantal%20gasten%3A%20%0ALocatie%3A%20%0ABudget%3A%20%0A%0ABedankt!"
-            className="bg-amber text-bg text-base font-bold px-8 py-3.5 hover:bg-amber-light transition-colors"
+            className="bg-amber text-white text-base font-bold px-8 py-3.5 hover:bg-amber-light transition-colors rounded"
           >
             Offerte Aanvragen
           </a>
           <a
             href="tel:+317****0503"
-            className="border border-border text-cream text-base font-bold px-8 py-3.5 hover:border-amber hover:text-amber transition-colors"
+            className="border border-border text-cream text-base font-bold px-8 py-3.5 hover:border-amber hover:text-amber transition-colors rounded"
           >
             Bel Ons
           </a>

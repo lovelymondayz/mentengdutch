@@ -112,7 +112,7 @@ export default function Menu() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`px-6 py-2.5 text-sm font-semibold rounded-full transition-all duration-200 ${
                   activeTab === tab.id
-                    ? 'bg-amber text-bg'
+                    ? 'bg-amber text-white'
                     : 'text-muted hover:text-cream'
                 }`}
               >

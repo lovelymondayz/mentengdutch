@@ -57,7 +57,7 @@ export default function Shop() {
         <div className="text-center mt-12">
           <a
             href="#"
-            className="inline-block border border-amber text-amber text-base font-bold px-8 py-3 hover:bg-amber hover:text-bg transition-colors"
+            className="inline-block border border-amber text-amber text-base font-bold px-8 py-3 hover:bg-amber hover:text-white transition-colors rounded"
           >
             Bekijk Alles
           </a>

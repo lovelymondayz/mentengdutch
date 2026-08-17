@@ -18,7 +18,7 @@ const reviews = [
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="py-20 md:py-32 px-6 md:px-8 bg-surface fade-up">
+    <section id="reviews" className="py-20 md:py-32 px-6 md:px-8 bg-[#E8E3DA] fade-up">
       <div className="max-w-[1200px] mx-auto">
         <div className="text-center mb-16">
           <p className="text-amber text-sm font-semibold tracking-[0.2em] uppercase mb-3">
