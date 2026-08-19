@@ -16,22 +16,22 @@ export default function Location() {
               <div>
                 <h3 className="text-cream text-base font-bold mb-2">Voorburg</h3>
                 <p className="text-muted text-sm leading-relaxed">
-                  Herenstraat 12<br />
+                  Herenstraat 32<br />
                   2271 VZ Voorburg
                 </p>
                 <p className="text-amber text-sm font-semibold mt-2">
-                  +31 70 389 0503
+                  <a href="tel:+31703000503">+31 70 300 05 03</a>
                 </p>
               </div>
 
               <div>
                 <h3 className="text-cream text-base font-bold mb-2">Wassenaar</h3>
                 <p className="text-muted text-sm leading-relaxed">
-                  Lange Kerkstraat 8<br />
+                  Franse Kerkstraat 8<br />
                   2242 BV Wassenaar
                 </p>
                 <p className="text-amber text-sm font-semibold mt-2">
-                  +31 70 389 4062
+                  <a href="tel:+31704494062">+31 70 449 40 62</a>
                 </p>
               </div>
 

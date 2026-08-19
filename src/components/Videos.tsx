@@ -1,13 +1,13 @@
 const videos = [
   {
-    id: 'dQw4w9WgXcQ',
-    title: 'Onze Kok in Actie',
-    desc: 'Bekijk hoe we dagelijks verse gerechten bereiden met traditionele technieken.',
+    id: '83owJ0fp3lc',
+    title: 'Beste Toko staat in Voorburg',
+    desc: 'Omroep West maakte een reportage over Toko Menteng — de beste toko van Nederland! Bekijk onze verhaal en passie voor Indonesische keuken.',
   },
   {
-    id: 'dQw4w9WgXcQ',
-    title: 'Toko Menteng Verhaal',
-    desc: 'Het verhaal achter onze toko en onze passie voor Indonesische keuken.',
+    id: 'TCzJ45mYnBc',
+    title: 'Basis Kruidenmengsels voor Indonesische Gerechten',
+    desc: 'Onze chef deelt zijn geheime kruidenmengsels — de basis van elk gerecht bij Toko Menteng.',
   },
 ]
 

@@ -32,8 +32,11 @@ export default function Hero() {
           <h1 className="text-amber text-[40px] md:text-[64px] font-bold leading-[1.1] mb-6">
             Selamat Datang
           </h1>
+          <p className="text-cream text-lg md:text-xl leading-relaxed mb-4 max-w-[480px]">
+            Verse producten, een passie voor koken, en traditionele recepten die overgaan van generatie op generatie. Het zijn de basis ingrediënten voor alle gerechten van Toko Menteng.
+          </p>
           <p className="text-cream text-lg md:text-xl leading-relaxed mb-10 max-w-[480px]">
-            Authentieke Indonesische smaken, vers bereid met liefde. Bezoek onze toko of bestel voor thuis.
+            Kom het zelf proeven in één van onze eethuisjes in Voorburg of Wassenaar! Laat ons de catering van uw feest verzorgen of neem de gerechten mee naar huis: genieten is gegarandeerd. Wij wensen u een smakelijke maaltijd toe, of zoals wij het in onze toko's zeggen: <span className="text-amber font-semibold">Selamat Makan!</span>
           </p>
           <div className="flex flex-wrap gap-4">
             <div className="relative" ref={wrapperRef}>
@@ -48,13 +51,13 @@ export default function Hero() {
               {dropdownOpen && (
                 <div className="absolute top-full left-0 mt-2 bg-surface border border-border rounded-lg shadow-lg overflow-hidden w-[220px] z-50">
                   <a
-                    href="tel:+317****0503"
+                    href="tel:+31703000503"
                     className="flex items-center justify-center px-4 py-4 hover:bg-surface-alt border-b border-border transition-colors"
                   >
                     <span className="text-base font-semibold text-cream">Voorburg</span>
                   </a>
                   <a
-                    href="tel:+317****4062"
+                    href="tel:+31704494062"
                     className="flex items-center justify-center px-4 py-4 hover:bg-surface-alt transition-colors"
                   >
                     <span className="text-base font-semibold text-cream">Wassenaar</span>
@@ -71,7 +74,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right: Image */}
+        {/* Right: Image + Award Badge */}
         <div className="relative z-10">
           <div className="relative aspect-[4/3] overflow-hidden rounded-lg shadow-xl">
             <img
@@ -81,6 +84,9 @@ export default function Hero() {
             />
           </div>
           <div className="absolute -bottom-4 -left-4 w-24 h-24 border-2 border-amber/30 rounded-lg" />
+          <div className="absolute -top-4 -right-4 bg-amber text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg">
+            🏆 Beste Toko 2016
+          </div>
         </div>
       </div>
     </section>

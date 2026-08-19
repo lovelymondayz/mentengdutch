@@ -14,7 +14,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-6">
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/tokomenteng/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -25,7 +25,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.tiktok.com"
+              href="https://www.tiktok.com/@tokomenteng"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="TikTok"

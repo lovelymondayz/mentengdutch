@@ -13,10 +13,10 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-r from-black/10 to-transparent" />
           </div>
 
-          {/* Text side — dark bg like Jakarta Munch */}
+          {/* Text side */}
           <div className="bg-[#2f2f2f] p-10 md:p-16 flex flex-col justify-center">
             <p className="text-amber text-sm font-semibold tracking-[0.2em] uppercase mb-3">
-              Onze Verhaal
+              Ons Verhaal
             </p>
             <h2 className="text-white text-[28px] md:text-[40px] font-bold leading-tight mb-6">
               Indonesische smaken,<br />thuis in Nederland
@@ -25,7 +25,10 @@ export default function About() {
               Toko Menteng is ontstaan uit een passie voor authentieke Indonesische keuken. Al meer dan 10 jaar serveren we in Voorburg en Wassenaar verse, traditionele gerechten — bereid met verse ingrediënten en veel liefde.
             </p>
             <p className="text-gray-300 text-base leading-relaxed mb-4">
-              Van rendang tot nasi gorgeng, van ayam bakar tot es tjendol — elk gerecht vertelt een verhaal over de rijke culinaire traditie van Indonesië. Wij geloven dat eten meer is dan voeding; het is ervaring, herinnering en verbinding.
+              Van rendang tot nasi goreng, van ayam bakar tot es tjendol — elk gerecht vertelt een verhaal over de rijke culinaire traditie van Indonesië. Wij geloven dat eten meer is dan voeding; het is ervaring, herinnering en verbinding.
+            </p>
+            <p className="text-gray-300 text-base leading-relaxed mb-4">
+              In 2016 zijn wij uitgeroepen tot de <span className="text-amber font-semibold">Beste Toko van Nederland</span> door Indoweb. Een erkenning waar wij enorm trots op zijn, en die ons elke dag motiveert om het beste aan onze gasten te bieden.
             </p>
             <p className="text-amber text-lg font-semibold mt-4">
               Selamat makan! 👋

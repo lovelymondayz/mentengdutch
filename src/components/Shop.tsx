@@ -1,23 +1,43 @@
 const products = [
   {
-    name: 'Kecap Manis (500ml)',
-    price: '€8.50',
+    name: 'Kecap Manis Bango (660ml)',
+    price: '€4,50',
     image: 'https://images.unsplash.com/photo-1630409346895-9b465f5ca2c8?w=400&q=80',
   },
   {
     name: 'Sambal Oelek (250ml)',
-    price: '€6.50',
+    price: '€3,50',
     image: 'https://images.unsplash.com/photo-1585515656968-29b0c3f0f08b?w=400&q=80',
   },
   {
-    name: 'Pandan Extract (200ml)',
-    price: '€7.00',
+    name: 'Pandan Extract (50ml)',
+    price: '€4,00',
     image: 'https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&q=80',
   },
   {
-    name: 'Kokosblokjes (400g)',
-    price: '€5.50',
+    name: 'Kokosblokjes (500g)',
+    price: '€5,00',
     image: 'https://images.unsplash.com/photo-1525385133512-2f3bdd039054?w=400&q=80',
+  },
+  {
+    name: 'Serehpoeder (100g)',
+    price: '€3,25',
+    image: 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=400&q=80',
+  },
+  {
+    name: 'Kemiri (Macadamia) (250g)',
+    price: '€6,50',
+    image: 'https://images.unsplash.com/photo-1599459180874-c61b1c0c540f?w=400&q=80',
+  },
+  {
+    name: 'Laos (Galangal) (100g)',
+    price: '€3,75',
+    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=400&q=80',
+  },
+  {
+    name: 'Kurkuma (150g)',
+    price: '€3,50',
+    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?w=400&q=80',
   },
 ]
 
