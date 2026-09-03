@@ -1,26 +1,22 @@
-.PHONY: dev build up down logs clean
+.PHONY: dev build up down logs clean deploy
 
 # Start development environment
 dev:
-	cd frontend && npm run dev
-	@echo "Frontend: http://localhost:5173"
+	npm run dev
+	@echo "Jakarta Munch: http://localhost:5173"
 
-# Production build (local)
+# Production build
 build:
-	npm run build
+	npm ci && npm run build
 	@echo "Build complete"
 
 # Docker operations
 up:
 	docker compose up -d --build
-	@echo "App running at http://localhost:3002"
+	@echo "Jakarta Munch running — http://localhost:3002"
 
 down:
 	docker compose down
-
-# Deploy (push to GitHub first, then run this)
-deploy:
-	bash /root/hermes/scripts/update.sh mentengdutch
 
 # Utility
 logs:
@@ -29,3 +25,6 @@ logs:
 clean:
 	docker compose down -v
 	rm -rf dist
+
+deploy:
+	./update.sh
